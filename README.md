@@ -18,3 +18,9 @@ Realizar un programa que me diga si un numero es abundante o no, un numero abund
 Ejemplo: n= 24, sus divisores son : 1, 2, 3, 4, 6, 8,  12, 24 la suma de sus divisores es: (1+2+3+4+6+8+12+24)= 60
 2*n = 2*24 = 48
 por lo tanto; 60 > 48, en conclusion el numero 24 es un numero abundante.
+
+## Ejercicio 5:
+Realizar un programa que ingrese desde el teclado dos numeros enteros positivos, para determinar si son amigo, Ejm(220, 284), ya que : los divisores propios de 220 son 1, 2, 4, 5, 10, 11 , 20, 22, 44, 55 y 110, que suman 284; los divisors propios de28 son 1, 2, 4, 7 y 142, que suman 220.
+
+## Ejercicio 6:
+Funion que recibe un numero como parametro y devuleve el mismo numero pero inverso
