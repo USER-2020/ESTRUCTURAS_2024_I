@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /* Ejercicio 1 */
 int repeatingNumber()
@@ -216,25 +217,87 @@ int getPrimesFactories()
     printf("\n");
 }
 
-int pointProduct(){
+/* Ejercicio 5 */
+int pointProduct()
+{
     int sizeVector;
     printf("Ingrese el tamnio del vector: ");
-    scanf("%d",&sizeVector);
-
+    scanf("%d", &sizeVector);
 
     /* Cual es la diferencia enttre vestor y arreglo(?) */
     /* El vector es una estructura de datos que permite almacenar un conjunto de valores de distinto tipo,
       mientras que el arreglo es una secuencia linear de elementos todos de un solo tipo de dato. */
 
-    int *vectorA[sizeVector];/* Declaracion de un vector dinamico */
+    int *vectorA[sizeVector]; /* Declaracion de un vector dinamico */
     int *vectorB[sizeVector];
+
+    printf("Ingrese valores para el vector A: \n");
+    for (int x = 0; x < sizeVector; x++)
+    {
+        printf("Posicion %d: ", x + 1);
+        scanf("%d", &vectorA[x]);
+    }
+    printf("Vector A: ");
+    for (int x = 0; x < sizeVector; x++)
+    {
+        printf("%d ", vectorA[x]);
+    }
+    printf("\n");
+
+    printf("Ingrese valores para el vector B: \n");
+    for (int x = 0; x < sizeVector; x++)
+    {
+        printf("Posicion %d: ", x + 1);
+        scanf("%d", &vectorB[x]);
+    }
+    printf("Vector B: ");
+    for (int x = 0; x < sizeVector; x++)
+    {
+        printf("%d ", vectorB[x]);
+    }
+    printf("\n");
+}
+/* Ejercicio 10 */
+int changueBinary()
+{
+    int n, vector[10], suma, potencia;
+    printf("\nCantiad de cifras: ");
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++)
+    {
+        printf("\nCifra : %d  del numero : ", i + 1);
+        scanf("%d", &vector[i]);
+    }
+    printf("\n\nVector completo: ");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", vector[i]);
+    }
+    printf("\n");
+    suma = 0;
+    potencia = 0;
+    for (int x = n - 1; x >= 0; x--)
+    {
+        suma += pow(2, potencia) * vector[x];
+        potencia++;
+    }
+
+    printf("\nEl numero en base 10 es : %d", suma);
 }
 
 int main()
 {
+    pointProduct();
     // repeatingNumber();
     // readMatrix();
     // esPrimo();
-    getPrimesFactories();
+    // getPrimesFactories();
+    // changueBinary();
+    // int x = 10;
+    // printf("\n1. Valor de x : %d", x++);
+    // printf("\n2. Valor de x : %d", ++x);
+    // printf("\n3. Valor de x : %d", x+=1);
+    // printf("\n5. Valor de x : %d", x+1);
+    // printf("\n5. Valor de x : %d", x);
     return 0;
 }
