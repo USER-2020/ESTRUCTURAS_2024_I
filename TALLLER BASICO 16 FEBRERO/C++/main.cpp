@@ -481,11 +481,14 @@ int changueBinary()
     printf("\n");
     suma = 0;
     potencia = 0;
+
     for (int x = n - 1; x >= 0; x--)
     {
         suma += pow(2, potencia) * vector[x];
-        printf("Suma con potencia %d: %d \n", potencia, suma);
         potencia++;
+
+        printf("Suma con potencia %d del vector en su posicion [%d]: %d \n", potencia, vector[x], suma);
+        printf("Valor de x:  %d \n", x);
     }
 
     printf("\nEl numero en base 10 es : %d", suma);
