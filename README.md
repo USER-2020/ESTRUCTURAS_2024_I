@@ -59,3 +59,7 @@ primera columna y la última columna.
 utilizar matrices auxiliares, la matriz transpuesta (se intercambian filas por columnas). 
 Debe mostrar el resultado obtenido.
 
+# PILAS 
+Tipos de datos abstractos
+
+
