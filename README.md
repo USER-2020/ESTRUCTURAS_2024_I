@@ -61,5 +61,13 @@ Debe mostrar el resultado obtenido.
 
 # PILAS 
 Tipos de datos abstractos
+## Ejemplo 1:
+1) Crear una pila e incluirle los valores:
+10, 20, 30, 40, 50.
+2) Determinar la cantidad de elementos.
+3) Eliminar el último elemento
+4) Mostrar el elemento que está en el tope de la pila. 
+5) Saber si la pila está vacía
+
 
 
