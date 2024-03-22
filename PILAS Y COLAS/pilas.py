@@ -99,7 +99,7 @@ def ordenadaPila(pila):
         while not isEmptyStack(temp):
             #Minetras la pila temp no este vacia se llenara la original "pila" con cada elemento que se quite del temp
         	push(pila,pop(temp))
-        return ordenada
+            # return ordenada
 
 # Calcula el mayor de una pila
 def mayorPila(pila):
@@ -225,17 +225,17 @@ print("\nEl mayor de la pila es : ",mayorPila(pila))
 """
 
 # Orden de fibonacci
-pila=Stack()
-push(pila,29)
-push(pila,18)
-push(pila,11)
-push(pila,7)
-push(pila,25)
-push(pila,3)
-mostrarPila(pila)
-print("\nLa pila esta en orden ascendente : ",ordenadaPila(pila))
-print("El mayor de la pila es : ",mayorPila(pila))
-print("La pila esta en orden de fibonacci : ",ordenFibo(pila))
+# pila=Stack()
+# push(pila,29)
+# push(pila,18)
+# push(pila,11)
+# push(pila,7)
+# push(pila,25)
+# push(pila,3)
+# mostrarPila(pila)
+# print("\nLa pila esta en orden ascendente : ",ordenadaPila(pila))
+# print("El mayor de la pila es : ",mayorPila(pila))
+# print("La pila esta en orden de fibonacci : ",ordenFibo(pila))
 
 # Ordenar el contenido de una pila (tope es el menor)
 """
