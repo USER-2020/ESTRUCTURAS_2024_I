@@ -69,5 +69,23 @@ Tipos de datos abstractos
 4) Mostrar el elemento que está en el tope de la pila. 
 5) Saber si la pila está vacía
 
+# TALLLER PARA EVALUAR EXPRESIONES CON PILAS Y COLAS
+
+Se debe resolver el problema de convertir expresión matemática de entrefijo a posfijo y evaluarla, utilizando pilas y colas.
+
+Dada una expresión matemática representada como una cadena de caracteres que se encuentra en entre-fijo, donde los operadores se encuentran entre los operandos (Ejm 12 + 23), debe convertirla a una expresión posfijo con operadores después de los operandos  (12  23 +) - la debe mostrar, y posteriormente debe evaluarla y presentar el respectivo resultado.
+
+Solo debe utilizar las estructuras de datos pilas y colas con las primitivas vistas en el curso y sin utilizar ninguna estructura de datos adicional. 
+
+Las operaciones que se deben implementar son suma (+), resta (-), multiplicación (*), división (/), y adicionalmente se puede tener cualquier cantidad de paréntesis que agrupe a las operaciones.
+
+Se puede desarrollar de forma individual o en parejas y debe ser entregado a más tardar el martes 2 de abril a las 9:00 am en el Moodle.
+
+Ejemplo: dadas las siguientes expresiones
+
+1) 2+5, debe mostrar 2 5 + y como resultado 7
+2) ((3+2)*(5-2)), debe mostrar 3 2 + 5 2 - *, y como resultado 15
+3) 125, debe mostrar 125 y como resultado 125
+Debe probarlo con todas las oeraciones y diferentes longitudes de expresiones y prevenir posibles errores en la división.
 
 
