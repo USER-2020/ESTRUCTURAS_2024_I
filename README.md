@@ -79,7 +79,6 @@ Solo debe utilizar las estructuras de datos pilas y colas con las primitivas vis
 
 Las operaciones que se deben implementar son suma (+), resta (-), multiplicación (*), división (/), y adicionalmente se puede tener cualquier cantidad de paréntesis que agrupe a las operaciones.
 
-Se puede desarrollar de forma individual o en parejas y debe ser entregado a más tardar el martes 2 de abril a las 9:00 am en el Moodle.
 
 Ejemplo: dadas las siguientes expresiones
 
